@@ -1,0 +1,92 @@
+.form_container {
+    padding-top: 15px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 48%;
+}
+
+.form_con {
+    border: 2px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 15px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(255, 247, 233);
+}
+
+.submitbtn {
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #dc143c;
+    border: 1px solid #dc143c;
+    font-size: 15px;
+    color: #f0f8ff;
+}
+
+form { 
+    padding: 2rem; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+form input{
+    width: 80%;
+    line-height: 30px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding: 3px 10px;
+    margin: 5px;
+}
+
+.remove-btn {
+    background: none;
+    border: none;
+    color: rgb(126, 126, 126);
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    text-decoration: none;
+}
+
+.remove-btn::before {
+    content: "\00D7"; /* Unicode for "x" symbol */
+}
+
+.ban_container {
+    display: inline-block;
+    color: rgb(121, 121, 121);
+    background-color: rgb(226, 226, 226);
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+  
+.submitted-cards {
+    margin: 20px;
+}
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  
